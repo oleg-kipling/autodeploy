@@ -16,7 +16,3 @@
     "gulp-uglify": "^1.4.1"
   }
 }
-
-"scripts": {
-  "build": "gulp && gulp build"
-}
