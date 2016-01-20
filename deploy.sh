@@ -6,7 +6,7 @@ cd ./build/
 git init
 
 # run our compile script, discussed above
-#./compile.sh
+./compile.sh
 
 # go to the out directory and create a *new* Git repo
 cd out

@@ -3,9 +3,9 @@ node_js:
   - "5.0"
 before_script:
   - npm install -g gulp
-script: gulp
-  - gulp build
-  - bash ./deploy.sh
+  - npm install
+
+script: npm run build
 
 # sudo: false
 # language: node_js

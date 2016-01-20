@@ -18,5 +18,4 @@ build/*
 _fonts/
 
 node_modules/
-build/
 src/bower_components/
