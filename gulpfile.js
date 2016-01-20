@@ -57,8 +57,8 @@ gulp.task('styles', function () {
 // JavaScripts Tasks
 ///////////////////////////////////////////////////
 gulp.task('scripts', function() {
-  gulp.src('src/js/*.js')
-    .pipe(plumber())
+  gulp.src('src/js/main.js')
+    //.pipe(plumber())
     .pipe(uglify())
     .pipe(rename('main.min.js'))
     .pipe(gulp.dest('src/js'))
@@ -74,7 +74,7 @@ gulp.task('bower_scripts', function () {
     .pipe(flatten( {includeParents: 1} ))
     // .pipe(uglify())
     // .pipe(rename('vendor.min.js'))
-    .pipe(gulp.dest('src/libs'));
+    .pipe(gulp.dest('src/js'));
 });
 
 gulp.task('bower_styles', function () {
@@ -82,7 +82,7 @@ gulp.task('bower_styles', function () {
     .pipe(flatten( { includeParents: 1} ))
     // .pipe(minifyCSS())
     // .pipe(rename('vendor.min.css'))
-    .pipe(gulp.dest('src/libs'));
+    .pipe(gulp.dest('src/css'));
 });
 
 ///////////////////////////////////////////////////

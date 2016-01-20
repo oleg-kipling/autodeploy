@@ -97,7 +97,7 @@ base.animate({height: 300}, 1000, mina.elastic, function() {
 // LOAD EXTERNAL SVG
 
 var icon = Snap("#icon_house");
-Snap.load("img/icon-house.svg", function(data) {
+Snap.load("../img/icon-house.svg", function(data) {
 	icon.append(data);
 
 // INTERACTIVE
@@ -144,7 +144,7 @@ Snap.load("img/icon-house.svg", function(data) {
 	// var post = icon.select("#");
 
 var icon_post = Snap("#icon_post");
-Snap.load("img/post.svg", function(data) {
+Snap.load("../img/post.svg", function(data) {
 	icon_post.append(data);
 });
 
