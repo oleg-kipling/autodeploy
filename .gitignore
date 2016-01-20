@@ -16,3 +16,6 @@ build/*
 *.log
 # Exclude Fonts
 _fonts/
+
+node_modules/
+src/bower_components/
