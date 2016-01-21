@@ -35,6 +35,13 @@ var s = Snap();
 // - polygon
 var polygon = s.polyline(0,0,50,50,100,0,150,50,150,150,100,100,50,150,0,100);
 
+// example my git
+var s = Snap();
+var Git_circle = s.circle(100, 40, 40);
+Git_circle.attr( {
+	fill:"#FDCD00"
+});
+
 
 // ATTRIBUTES
 
